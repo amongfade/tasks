@@ -1,0 +1,263 @@
+
+.shape{
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+}
+section {
+     padding: 1% 5%;
+     column-count: 4;
+
+    .box {
+      height: 200px;
+      padding: 5% 10%;
+      text-align: center;
+      .icon1 {
+        .shape;
+        background-image: url("image/shape/shape1.jpg");
+      }
+      .icon2{
+        .shape;
+        background-image: url("image/shape/shape2.jpg");
+  }
+      .icon3{
+        .shape;
+        background-image: url("image/shape/Shape3.jpg");
+      }
+      h1 {
+        margin: 5%;
+        text-align: center;
+        font-size: 1.8rem;
+      }
+      .text {
+        font-size: 1.6rem;
+        color: #afafaf;
+        text-align: left;
+      }
+
+    }
+    .box1 {
+      height: 200px;
+      padding: 10% 10%;
+      box-sizing: border-box;
+      text-align: left;
+      border-left: 1px dashed #c9c9c9;
+      .icon4 {
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-image: url("image/shape/user.jpg");
+        background-repeat: no-repeat;
+      }
+      span {
+        font-size: 1.6rem;
+        color: #29b078;
+      }
+      .p01 {
+        font-size: 1.6rem;
+        color: #afafaf;
+        text-align: left;
+      }
+      @media (max-width: 768px) {
+        .p01 {
+          text-align: center;
+        }
+      }
+
+    }
+  @media (max-width: 768px) {
+    .box1 {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 1196px) {
+  section{
+    column-count: 2;
+  }
+}
+@media (max-width: 768px){
+  section{
+    column-count: 1;
+  }
+}
+section{
+    .step{
+
+
+      .circle{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+
+        vertical-align: middle;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 2px 2px #888;
+        span{
+          font-size: 1.8rem;
+          color:#29b078 ;
+        }
+      }
+      .sp-text{
+        display: inline-block;
+        height: 50px;
+        width: 52%;
+        margin: 4% 8% ;
+        vertical-align: middle;
+        font-size: 1.4em;
+        color: #999;
+      }
+      @media (max-width: 768px){
+        .sp-text{
+          margin: 4% 5% ;
+        }
+        .arrow{
+          margin-left: 8%;
+        }
+      }
+      .arrow{
+        display: inline-block;
+        background-image: url("image/arrow.jpg");
+        width: 21px;
+        height:21px;
+        margin-left: 4%;
+        vertical-align: middle;
+
+
+      }
+      @media(max-width: 996px){
+        .arrow{
+          margin-left: 10%;
+        }
+      }
+      @media (max-width: 400px){
+        .arrow{
+          margin-left: 2%;
+        }
+      }
+    }
+}
+@media (max-width:768px) {
+  section{
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+}
+.title{
+  padding: 1% 5%;
+  font-size: 1.8rem;
+  font-family: "Microsoft YaHei UI";
+  text-align: center;
+  margin: 4% 0;
+}
+section{
+  .show-up{
+
+    padding: 20% 15%;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 30px 20px 30px;
+    .photo{
+      display: inline-block;
+      background-image: url(image/sprite.png);
+      background-position: -225px -0px;
+      background-color: white;
+      width: 108px;
+      height: 108px;
+      margin: 2% auto 20% auto;
+      display: block;
+    }
+    .post{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+    .introduce{
+      display: inline-block;i
+      text-align: left;
+      font-size: 1.4rem;
+      color: #999;
+    }
+  }
+}
+main{
+  .row{
+    margin: 1% 5% 5% 5%;
+    background-color: #ffffff;
+  .co-operative {
+    display: inline-block;
+    width: 19.5%;
+    background-color: #ffffff;
+
+    a {
+      display: block;
+      .bg {
+      }
+      text-align: center;
+
+      &:hover {
+        box-shadow: #666 0px 0px 10px;
+      }
+
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+    @media (max-width: 768px){
+      .co-operative{
+        width: 100%;
+margin: 2% auto;
+      }
+    }
+  }
+  @media (max-width: 768px){
+    .row{
+      margin:5% 30%;
+    }
+  }
+  }
+.edg{
+  background-color: #ffffff;
+
+  padding: 0 5%;
+  .title01{
+    margin: 5% 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Microsoft YaHei UI";
+  }
+  ul{
+    letter-spacing: -4px;
+    margin-bottom: 1%;
+    li{
+      display: inline-block;
+      width: 10%;
+      letter-spacing: 0px;
+      color: #999;
+      a{
+        font-size: 1.4rem;
+        color: #999;
+      }
+      }
+    @media (max-width: 996px){
+    li{
+      width:20%;
+    }
+    }
+    @media(max-width: 768px){
+      li{
+        width: 25%;
+      }
+    }
+    @media(max-width: 400px){
+      li{
+        width:50%;
+      }
+    }
+    }
+  }
+
+

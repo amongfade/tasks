@@ -1,0 +1,247 @@
+.shape {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+}
+section {
+  padding: 1% 5%;
+  column-count: 4;
+}
+section .box {
+  height: 200px;
+  padding: 0 10%;
+  text-align: center;
+}
+section .box .icon1 {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-image: url("image/shape/shape1.jpg");
+}
+section .box .icon2 {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-image: url("image/shape/shape2.jpg");
+}
+section .box .icon3 {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-image: url("image/shape/Shape3.jpg");
+}
+section .box h1 {
+  margin: 5%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+section .box .text {
+  font-size: 1.6rem;
+  color: #afafaf;
+  text-align: left;
+}
+section .box1 {
+  height: 200px;
+  padding: 10% 10%;
+  box-sizing: border-box;
+  text-align: left;
+  border-left: 1px dashed #c9c9c9;
+}
+section .box1 .icon4 {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url("image/shape/user.jpg");
+  background-repeat: no-repeat;
+}
+section .box1 span {
+  font-size: 1.6rem;
+  color: #29b078;
+}
+section .box1 .p01 {
+  font-size: 1.6rem;
+  color: #afafaf;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  section .box1 .p01 {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  section .box1 {
+    text-align: center;
+  }
+}
+@media (max-width: 1196px) {
+  section {
+    column-count: 2;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    column-count: 1;
+  }
+}
+section .step .circle {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 2px #888;
+}
+section .step .circle span {
+  font-size: 1.8rem;
+  color: #29b078 ;
+}
+section .step .sp-text {
+  display: inline-block;
+  height: 50px;
+  width: 52%;
+  margin: 4% 8% ;
+  padding-top: 8%;
+  vertical-align: middle;
+  font-size: 1.4em;
+  color: #999;
+}
+@media (max-width: 768px) {
+  section .step .sp-text {
+    margin: 4% 5% ;
+  }
+  section .step .arrow {
+    margin-left: 8%;
+  }
+}
+section .step .arrow {
+  display: inline-block;
+  background-image: url("image/arrow.jpg");
+  width: 21px;
+  height: 21px;
+  margin-left: 4%;
+  vertical-align: middle;
+}
+@media (max-width: 996px) {
+  section .step .arrow {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 400px) {
+  section .step .arrow {
+    margin-left: 2%;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+}
+.title {
+  padding: 1% 5%;
+  font-size: 1.8rem;
+  font-family: "Microsoft YaHei UI";
+  text-align: center;
+  margin: 4% 0;
+}
+section .show-up {
+  padding: 20% 15%;
+  background-color: #fff;
+  text-align: center;
+  margin: 0 30px 20px 30px;
+}
+section .show-up .photo {
+  display: inline-block;
+  background-image: url(image/sprite.png);
+  background-position: -225px 0px;
+  background-color: white;
+  width: 108px;
+  height: 108px;
+  margin: 2% auto 20% auto;
+  display: block;
+}
+section .show-up .post {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+section .show-up .introduce {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #999;
+}
+main .row {
+  margin: 1% 5% 5% 5%;
+  background-color: #ffffff;
+}
+main .row .co-operative {
+  display: inline-block;
+  width: 19.5%;
+  background-color: #ffffff;
+}
+main .row .co-operative a {
+  display: block;
+  text-align: center;
+}
+main .row .co-operative a:hover {
+  box-shadow: #666 0px 0px 10px;
+}
+main .row .co-operative a img {
+  max-width: 80%;
+}
+@media (max-width: 768px) {
+  main .row .co-operative {
+    width: 100%;
+    margin: 2% auto;
+  }
+}
+@media (max-width: 768px) {
+  main .row {
+    margin: 5% 30%;
+  }
+}
+.edg {
+  background-color: #ffffff;
+  padding: 0 5%;
+}
+.edg .title01 {
+  margin: 5% 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Microsoft YaHei UI";
+}
+.edg ul {
+  letter-spacing: -4px;
+  margin-bottom: 1%;
+}
+.edg ul li {
+  display: inline-block;
+  width: 10%;
+  letter-spacing: 0px;
+  color: #999;
+}
+.edg ul li a {
+  font-size: 1.4rem;
+  color: #999;
+}
+@media (max-width: 996px) {
+  .edg ul li {
+    width: 20%;
+  }
+}
+@media (max-width: 768px) {
+  section .show-up{
+  margin: 0 0 20px 0;
+  }
+  .edg ul li {
+    width: 25%;
+  }
+}
+@media (max-width: 400px) {
+  .edg ul li {
+    width: 50%;
+  }
+}

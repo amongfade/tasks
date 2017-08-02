@@ -1,0 +1,201 @@
+.dib {
+  display: inline-block;
+}
+html {
+  font-size: 62.5%;
+}
+.hotline {
+  font-size: 14px;
+  color: #29b078;
+  text-align: left;
+}
+.connection {
+  text-align: right;
+}
+.tac {
+  text-align: center;
+}
+header {
+  padding: 0 5%;
+  box-sizing: border-box;
+  column-count: 2;
+}
+header .hotline {
+  line-height: 32px;
+  font-size: 14px;
+  color: #29b078;
+  text-align: left;
+}
+header .connection {
+  text-align: right;
+}
+nav {
+  position: relative;
+  padding: 0 5%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #29b078;
+}
+nav .nav-header {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+nav ul {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+nav ul .bottom {
+  border-bottom: 5px #fff solid;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1.25rem;
+  padding: 2.2rem 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+nav ul li:hover {
+  border-bottom: 5px #fff solid;
+}
+nav ul li a {
+  padding: 1.5em 0;
+  color: #ffffff;
+}
+@media (min-width: 769px) {
+  .navbar-toggle {
+    display: none;
+  }
+  nav ul {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 768px) {
+  nav ul {
+    width: 100%;
+    display: none;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-bottom: 2px;
+    border-radius: 1px;
+    background-color: #999;
+  }
+  .navbar-toggle {
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+}
+footer {
+  position: relative;
+  height: 130px;
+  padding: 1% 5%;
+  column-count: 3;
+  background-color: #29b078;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+footer .introduce {
+  position: absolute;
+}
+footer .introduce .title01 {
+  margin-bottom: 50px;
+  font-size: 1.9rem;
+}
+footer .introduce ul li {
+  display: inline-block;
+}
+footer .introduce ul li a {
+  color: #ffffff;
+}
+footer .introduce ul .li-mid {
+  margin: 0 .5rem;
+  padding: 0 .5rem;
+  border-left: 1px #ffffff solid;
+  border-right: 1px #ffffff solid;
+}
+@media (max-width: 768px) {
+  footer .introduce {
+    left: 0;
+    margin-left: 3%;
+  }
+
+}
+footer .website {
+  position: absolute;
+  left: 35%;
+}
+footer .website .title02 {
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+}
+footer .website ul {
+  margin-top: 1rem;
+}
+footer .website ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+footer .website ul li a {
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  footer .website {
+    top: 120px;
+    left: 0;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }
+}
+footer .weixin {
+  position: absolute;
+  right: 5%;
+}
+footer .weixin .title03 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+@media (max-width: 768px) {
+  footer .weixin {
+    top: 220px;
+    left: 0;
+    margin-left: 3%;
+    margin-top: 8%;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    height: 390px ;
+  }
+}
+.coperight {
+  background-color: #29b078;
+  padding: 1%;
+  text-align: center;
+  border-top: 1px #fff solid;
+  color: #ffffff;
+}

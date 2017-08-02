@@ -1,0 +1,206 @@
+@charset "utf-8";
+/*头部样式*/
+header {
+  width: 100%;
+  padding: 1% 5%;
+  box-sizing: border-box;
+  -moz-column-count: 2;
+  /* Firefox */
+  -webkit-column-count: 2;
+  /* Safari and Chrome */
+  column-count: 2;
+  color: #29b078;
+}
+header .icon {
+  text-align: right;
+}
+header .icon .sinaweibo {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/spritesheet.png);
+  background-position: -443px -64px;
+  display: inline-block;
+}
+header .icon .qq {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/spritesheet.png);
+  background-position: -5px -5px;
+  display: inline-block;
+  margin-left: 1em;
+}
+header .icon .wechat {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/spritesheet.png);
+  background-position: -478px -64px;
+  display: inline-block;
+  margin-left: 1em;
+}
+@media screen and (max-width: 768px) {
+  header {
+    -moz-column-count: 1;
+    /* Firefox */
+    -webkit-column-count: 1;
+    /* Safari and Chrome */
+    column-count: 1;
+  }
+  header .icon {
+    text-align: left;
+  }
+}
+/*导航栏样式*/
+.nav {
+  position: relative;
+  width: 100%;
+  padding: 0 5%;
+  box-sizing: border-box;
+  background-color: #29b078;
+}
+.nav .nav-logo {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+.nav .jnshu {
+  width: 107px;
+  height: 50px;
+  background-image: url(../images/spritesheet.png);
+  background-position: -357px -132px;
+  display: inline-block;
+}
+.nav ul {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 1.25em;
+  padding: 2.2em 0;
+  box-sizing: border-box;
+  font-size: 1.6em;
+}
+.nav li:hover {
+  border-bottom: 5px #fff solid;
+}
+.nav li a {
+  padding: 1.5em 0;
+  color: #ffffff;
+}
+.bottom {
+  border-bottom: 5px #fff solid;
+}
+@media screen and (max-width: 768px) {
+  .nav-logo {
+    margin: 1.2em 0;
+  }
+  .nav ul {
+    width: 100%;
+    display: none;
+  }
+  .nav ul li {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .navbar-toggle {
+    position: absolute;
+    top: 1.2em;
+    right: 1em;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-bottom: 2px;
+    border-radius: 1px;
+    background-color: #999;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+  .nav ul {
+    display: inline-block !important;
+  }
+}
+/*底部样式*/
+footer {
+  width: 100%;
+  background-color: #29b078;
+  color: #ffffff;
+}
+footer .footer-mes {
+  -moz-column-count: 3;
+  /* Firefox */
+  -webkit-column-count: 3;
+  /* Safari and Chrome */
+  column-count: 3;
+  padding: 1% 5%;
+}
+footer li {
+  display: inline-block;
+}
+footer li a {
+  color: #ffffff;
+}
+footer .mb-01 {
+  margin-bottom: 4.5em;
+}
+footer .mb-02 {
+  margin-bottom: 2.5em;
+}
+footer .erweima {
+  width: 92px;
+  height: 92px;
+  background-image: url(../images/spritesheet.png);
+  background-position: -137px -242px;
+  display: inline-block;
+}
+footer .li-01 {
+  margin: 0 .5em;
+  padding: 0 .5em;
+  border: none;
+  border-left: 1px #ffffff solid;
+  border-right: 1px #ffffff solid;
+}
+footer .website ul {
+  margin-top: 1em;
+}
+footer .website li {
+  margin-right: 1em;
+}
+footer .saoma {
+  text-align: right;
+}
+footer .copyright {
+  padding: 1%;
+  text-align: center;
+  border-top: 1px #fff solid;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-mes {
+    -moz-column-count: 1;
+    /* Firefox */
+    -webkit-column-count: 1;
+    /* Safari and Chrome */
+    column-count: 1;
+  }
+  footer .saoma {
+    text-align: left;
+  }
+}
