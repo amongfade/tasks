@@ -1,0 +1,121 @@
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+  margin: 0;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+header {
+  position: fixed;
+  top: 0;
+  max-width: 640px;
+  width: 100%;
+  background-color: #29bde0;
+}
+header .head {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  padding: 2% 0;
+  border-bottom: 1px solid #74d4eb;
+}
+header .head .logo-1 {
+  float: left;
+  padding-left: 2%;
+}
+header .head span {
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding: 2% ;
+}
+header .head .logo-2 {
+  float: right;
+  padding-right: 2%;
+}
+main {
+  background-color: #29bde0;
+  margin: 4rem 0;
+}
+main .bgd {
+  text-align: center;
+  width: 100%;
+  padding: 5% 0;
+}
+main .bgd img {
+  width: 60%;
+}
+main .content-top {
+  padding: 2% 15%;
+  color: #ffffff;
+}
+main .content-top .p1 {
+  font-size: 1.8rem;
+  color: #ffc865;
+  padding-bottom: 5%;
+}
+main .content-top .p2,
+main .content-top .p3,
+main .content-top .p4,
+main .content-top .p5 {
+  padding: 1% 0;
+}
+main .content-buttom {
+  padding: 2% 15%;
+  background-color: #ffffff;
+}
+main .content-buttom span {
+  font-size: 1.2rem;
+}
+main .content-buttom .p7,
+main .content-buttom .p8 {
+  padding: 1% 0;
+  color: #a6a6a6;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+}
+footer .foot {
+  text-align: center;
+  width: 100%;
+  background: rgba(153, 223, 240, 0.8);
+}
+footer .foot .button-1 {
+  width: 40%;
+  font-size: 1.5rem;
+  background-color: #f66f6f;
+  padding: 2% 0;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  margin: 2%;
+}
+footer .foot .button-2 {
+  width: 40%;
+  font-size: 1.5rem;
+  background-color: #f66f6f;
+  padding: 2% 0;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  margin: 2%;
+  background-color: #fbb435;
+}

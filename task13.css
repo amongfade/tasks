@@ -1,0 +1,91 @@
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+  margin: 0;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+header .head {
+  background-color: #29bde0;
+  padding: 3%;
+}
+main {
+  background-color: #f0f0f0;
+}
+main .main-top {
+  overflow: hidden;
+  padding: 3%;
+}
+main .main-top p {
+  background-color: white;
+  border: 1px solid #e7e7e7;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2%;
+  color: #ececec;
+}
+main .main-bottom {
+  margin: 3%;
+  border: 1px solid #c9c9c9;
+  background-color: white;
+}
+main .main-bottom .p1 {
+  padding: 2%;
+  font-size: 1.8rem;
+  color: #fbb435;
+  text-align: center;
+  border-bottom: 1px solid #fbb435;
+}
+main .main-bottom .p2 {
+  margin: 3% 10%;
+  padding: 5%;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: #29bde0;
+}
+main .main-bottom .aaa {
+  float: right;
+  margin-top: 6%;
+}
+main .main-bottom .p3 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #bcbcbc;
+}
+main .main-bottom .main-bottom-foot {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+}
+main .main-bottom .main-bottom-foot a {
+  background: #f0f0f0;
+  padding: 0.1rem 0.8rem;
+  border-radius: 50%;
+  margin: 1%;
+  border: 1px solid #aec3e1;
+}
+main .main-bottom .main-bottom-foot a:hover {
+  background-color: #69d1e9 ;
+}

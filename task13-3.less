@@ -1,0 +1,100 @@
+
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form {margin:0;}
+ol,ul{margin:0; padding:0;}
+//样式
+@text_size:1.8rem;
+@bgc:#29bde0;
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+//head部分
+header{
+  position: fixed;
+  top: 0;
+  max-width: 640px;
+  width: 100%;
+  background-color: @bgc;
+  .head{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 2% 0;
+    border-bottom: 1px solid #74d4eb;
+    .logo-1{
+      float: left;
+      padding-left: 2%;
+    }
+     span{
+       font-size: @text_size;
+       color: #ffffff;
+       padding: 2% ;
+     }
+    .logo-2{
+      float: right;
+      padding-right: 2%;
+    }
+  }
+}
+//main部分
+main{
+    background-color: @bgc;
+  margin: 4rem 0;
+  .bgd{
+    text-align: center;
+    width: 100%;
+    padding: 5% 0;
+    img{
+      width: 60%;
+    }
+  }
+  .content-top{
+     padding: 2% 15%;
+    color: #ffffff;
+    .p1{
+      font-size: @text_size;
+      color: #ffc865;
+      padding-bottom: 5%;
+    }
+    .p2,.p3,.p4,.p5{
+      padding:1% 0;
+    }
+  }
+  .content-buttom{
+    padding: 2% 15%;
+    background-color: #ffffff;
+    span{
+       font-size: 1.2rem;
+    }
+    .p7,.p8{
+      padding: 1% 0;
+      color: #a6a6a6;
+    }
+  }
+}
+footer{
+   position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  .foot{
+    text-align: center;
+    width: 100%;
+    background: rgba(153,223,240,0.8);
+    .button-1{
+      width: 40%;
+      font-size: 1.5rem;
+      background-color: #f66f6f;
+      padding: 2% 0;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      margin: 2%;
+    }
+    .button-2{
+      .button-1;
+      background-color: #fbb435;
+    }
+  }
+}
